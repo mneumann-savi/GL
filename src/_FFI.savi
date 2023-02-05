@@ -1,0 +1,6 @@
+:ffi_link_lib GL
+
+:module _FFI
+  :ffi glClear(bitfield I32) None
+  :ffi glColor4f(red F32, green F32, blue F32, alpha F32) None
+  :ffi glClearColor(red F32, green F32, blue F32, alpha F32) None
