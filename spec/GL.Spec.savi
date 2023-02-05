@@ -1,0 +1,6 @@
+:class GL.Spec
+  :is Spec
+  :const describes: "GL"
+
+  :it "compiles"
+    assert: True
