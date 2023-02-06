@@ -2,4 +2,4 @@
   :fun clear(bitfield I32): _FFI.glClear(bitfield)
   :fun clear_color(red F32, green F32, blue F32, alpha F32): _FFI.glClearColor(red, green, blue, alpha)
   :fun color4f(red F32, green F32, blue F32, alpha F32): _FFI.glColor4f(red, green, blue, alpha)
-
+  :fun rectf(x1 F32, y1 F32, x2 F32, y2 F32): _FFI.glRectf(x1, y1, x2, y2)

@@ -4,3 +4,4 @@
   :ffi glClear(bitfield I32) None
   :ffi glColor4f(red F32, green F32, blue F32, alpha F32) None
   :ffi glClearColor(red F32, green F32, blue F32, alpha F32) None
+  :ffi glRectf(x1 F32, y1 F32, x2 F32, y2 F32) None
